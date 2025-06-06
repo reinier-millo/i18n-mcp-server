@@ -14,7 +14,7 @@ export const saveTranslations = async (server: McpServer) => {
     'Save translations for a specific language. Translations are saved to a file in the same directory as the base i18n JSON file.',
     {
       langCode: z.string({
-        description: 'The language code to savve the translations for it',
+        description: 'The language code to save the translations for it',
       }),
     },
     async ({ langCode }) => {
